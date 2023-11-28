@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Counter program</title>
+<style>
+   #countlabel{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+   } 
+</style>
+</head>
+<body>
+    <label id="countlabel">0</label><br>
+    <button id="decreaseBtn">decreae</button>
+    <button id="resetBtn">reset</button>
+    <button id="increaseBtn">increae</button>
+    <script>
+        let count = 0;
+
+document.getElementById("decreaseBtn").onclick = function(){
+    count-=1;
+    document.getElementById("countlabel").innerHTML = count;
+}
+
+document.getElementById("resetBtn").onclick = function(){
+    count=0;
+    document.getElementById("countlabel").innerHTML = count;
+}
+
+document.getElementById("increaseBtn").onclick = function(){
+    count+=1;
+    document.getElementById("countlabel").innerHTML = count;
+}
+</script>
+</body>
+</html>

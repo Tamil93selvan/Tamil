@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript</title>
+</head>
+<body>
+
+    <form id="userForm">
+    <label for="userName">Name:</label>
+    <input type="text" id="userName" name="userName">
+
+    <label for="userAge">Age:</label>
+    <input type="number" id="userAge" name="userAge">
+
+    <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <script>
+    function submitForm() {
+        let userName = document.getElementById("userName").value;
+        let userAge = document.getElementById("userAge").value;
+
+        console.log("Name: " + userName);
+        console.log("Age: " + userAge);
+        }
+    </script>
+
+</body>
+</html>
