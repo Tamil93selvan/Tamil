@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: lightcyan;
+}
+
+.shadow-text {
+    text-align: center;
+    font-size: 36px;
+    color: blue;
+    text-shadow: 2px 2px 4px blueviolet; 
+}
+
+.center-text {
+    text-align: center;
+    font-size: 24px;
+    color: #555;
+}

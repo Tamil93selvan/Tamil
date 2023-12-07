@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Survey Form</title>
 </head>
 <body>
+    <h1>Survey Form</h1>
+    <form>
 
-    <h2 id="demo"></h2>
-    <script src="date.js"></script>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+       
+        <label>Gender:</label>D
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
 
+        <label for="age">Age:</label>
+        <select id="age" name="age">
+            <option value="under18">Under 18</option>
+            <option value="18to25">18-25</option>
+            <option value="26to35">26-35</option>
+            <option value="36to50">36-50</option>
+            <option value="over50">Over 50</option>
+        </select><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="movies" name="interests" value="movies">
+        <label for="movies">Movies</label><br><br>
+
+        <label for="message">message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Response Web Design</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
 

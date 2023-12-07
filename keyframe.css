@@ -1,0 +1,26 @@
+.box{
+    width: 200px;
+    height:200px;
+    background-color: cornflowerblue;
+    animation: boxcolor-animation;
+    animation-duration: 5s;
+    position: relative;
+    left: 20px;
+    top: 20px; 
+ }
+
+@keyframes box-animation { 
+    from {background-color: crimson;}
+    to {background-color: violet;}   
+}
+
+@keyframes boxcolor-animation {
+    0%{background-color: blue;left: 20px; top: 20px;}
+    25%{background-color: brown;left: 220px; top: 20px;}
+    50%{background-color: cadetblue;left: 220px; top: 220px;}
+    75%{background-color: green;left: 20px;top: 220px;}
+    100%{background-color: chartreuse;left: 20px; top: 20px;}  
+}
+
+
+

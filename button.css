@@ -1,0 +1,14 @@
+.button {
+    background-color: blue;
+    transform: scale(1);
+    transition: background-color green;, transform 0.3s ease;
+  }
+  
+  
+  div.button:hover {
+    background-color: red;
+     width: 300px;
+  }
+
+
+  

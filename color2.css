@@ -1,0 +1,14 @@
+
+  #grad1 {
+    height: 200px;
+    background-image: linear-gradient( to left,#ff3366, #ff99cc);
+  }
+
+  #radial {
+    height: 290px;
+    background-image: radial-gradient( circle, #ff6600, #ffcc00);
+  }
+
+
+
+

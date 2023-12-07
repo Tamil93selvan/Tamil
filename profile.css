@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.profile-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    width: 300px;
+    border-radius: 70%;
+    margin-bottom: 20px;
+}
+
+.profile-card h1 {
+    margin: 0;
+    color: grey;
+}
+
+.profile-card p {
+    color: grey;
+}
