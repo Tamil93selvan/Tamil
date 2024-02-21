@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Contact() {
+function Shop() {
   return (
     <div>
-      Contact Page
+      Shop Page
     </div>
   )
 }
 
-export default Contact;
+export default Shop;
